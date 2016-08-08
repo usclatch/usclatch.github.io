@@ -70,6 +70,10 @@ body {
 .thumbnail .caption{
     text-align:center;
 }
+.thumbnail>img{
+    width:100%;
+    height:auto;
+}
 
 /* Image section */
 .image-section h2 {
