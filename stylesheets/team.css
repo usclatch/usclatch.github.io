@@ -63,9 +63,13 @@ body {
 
 .team{
     background-color:white;
+    padding-top: 40px;
     color:black;
 }
 
+.thumbnail .caption{
+    text-align:center;
+}
 
 /* Image section */
 .image-section h2 {
@@ -87,12 +91,17 @@ body {
     margin-top: 80px;
     margin-left: 600px;
 }
+
+.btn:hover{
+    background-color:#ffc200;
+}
+
 .btn {
     border-radius: 0;
-    margin-top: 40px;
-    background-color: #ffc200;
+    margin-top: 10px;
+    background-color: #3071a9;
     padding: 10px;
-    color: #000;
+    color: #fff;
     font-size: 14px;
     width: 200px;
 }
