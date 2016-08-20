@@ -11,7 +11,7 @@ body {
 
 .appLink{
     text-align:center;
-    font-size:15px;
+    font-size:35px;
     padding-bottom:30px;
 }
 
@@ -34,7 +34,7 @@ body {
 }
 /* Jumbotron */
 .jumbotron {
-    background-color: #FFF;
+    background-color: #000;
     background-image: url("../assets/recruitmentCoverPhoto.png");
     background-size: 80% auto;
     background-position:center top;
