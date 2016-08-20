@@ -8,6 +8,13 @@ body {
     max-width: 940px;
     margin: 0 auto;
 }
+
+.appLink{
+    text-align:center;
+    font-size:15px;
+    padding-bottom:30px;
+}
+
 /* Header */
 .header {
     padding: 30px 0px 30px;
@@ -158,6 +165,10 @@ body {
     .col-md-6, .col-md-5{
         margin:0 auto;
         text-align: center;
+    }
+
+    .application{
+        display:none;
     }
 
     .header h1 {
