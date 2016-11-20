@@ -659,25 +659,26 @@
                     <br>
                     <p class="text-center">Unfortunately, we are not yet accepting applications for Spring 2016. Check back in early January to apply for Spring 2016 recruitment. If you would like to submit interest and be notified when applications open, enter your information below. Thank you.</p><br>
 
-                    <form role="form" method="POST" action="http://formspree.io/dgarry@usc.edu">
+                    <form role="form" name="sentMessage" id="contactForm" method="POST" action="http://formspree.io/dgarry@usc.edu">
                         <div class="row contact-form center-block col-centered">
                             <div class="wow zoomInUp form-group col-lg-12">
                             <div class="ilb form-group col-lg-4">
-                                <input type="name" name="name" placeholder="Name">
+                                <input type="name" name="name" placeholder="Name" class="form-control" required data-validation-required-message="Please enter your name."><p class="help-block text-danger"></p>
                             </div>
                             <div class="ilb form-group col-lg-4">
-                                <input type="email" name="email" placeholder="Email">
+                                <input type="email" name="email" placeholder="Email" class="form-control" required data-validation-required-message="Please enter your email."><p class="help-block text-danger"></p>
                             </div>
                             <div class="ilb form-group col-lg-2">
-                                <input name="message" placeholder="Major">
+                                <input name="message" placeholder="Major" class="form-control" required data-validation-required-message="Please enter your major."><p class="help-block text-danger"></p>
                             </div>
                             <div class="ilb form-group col-lg-2">
-                                <input name="year" type="number" placeholder="Graduation Year">
+                                <input name="year" type="number" placeholder="Graduation Year" class="form-control" required data-validation-required-message="Please enter your graduation year (like 2019)."><p class="help-block text-danger"></p>
                             </div>
                         </div>
                             <div class="wow zoomInUp form-group col-lg-12">
                             <center>
-                                <button type="submit" class="btn btn-primary">Submit</button>
+                                <div id="success"></div>
+                                <button type="submit" name="commit" class="btn btn-primary">Submit</button>
                             </center>
                             </div>
                         </div>
