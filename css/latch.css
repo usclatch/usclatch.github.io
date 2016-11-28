@@ -108,11 +108,11 @@ hr {
     filter: grayscale(0%) contrast(115%) drop-shadow(3px 3px 10px #C0C0C0);
 }
 
-#port2 {
+#porta {
     -webkit-filter: grayscale(100%) contrast(100%);
     filter: grayscale(100%) contrast(100%);
 }
-#port2:hover{
+#porta:hover{
     -webkit-filter: grayscale(0%) contrast(120%) drop-shadow(3px 3px 10px #C0C0C0);;
     filter: grayscale(0%) contrast(120%) drop-shadow(3px 3px 10px #C0C0C0);
 }
