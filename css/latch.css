@@ -68,8 +68,7 @@
 
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    /* background: url('http://www-scf.usc.edu/~dgarry/img/firework.jpg') no-repeat center center fixed; */
-    background: url('../img/other.png') no-repeat center center fixed; 
+    background: url('../img/villageb.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
