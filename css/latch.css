@@ -100,21 +100,21 @@ hr {
 }
 
 #port {
-    -webkit-filter: grayscale(100%) contrast(100%);
-    filter: grayscale(100%) contrast(100%);
+    -webkit-filter: grayscale(5%) contrast(95%);
+    filter: grayscale(5%) contrast(95%);
 }
 #port:hover{
-    -webkit-filter: grayscale(0%) contrast(115%) drop-shadow(3px 3px 10px #C0C0C0);;
-    filter: grayscale(0%) contrast(115%) drop-shadow(3px 3px 10px #C0C0C0);
+    -webkit-filter: grayscale(0%) contrast(105%) drop-shadow(3px 3px 10px #C0C0C0);;
+    filter: grayscale(0%) contrast(105%) drop-shadow(3px 3px 10px #C0C0C0);
 }
 
 #porta {
-    -webkit-filter: grayscale(100%) contrast(100%);
-    filter: grayscale(100%) contrast(100%);
+    -webkit-filter: grayscale(5%) contrast(95%);
+    filter: grayscale(5%) contrast(95%);
 }
 #porta:hover{
-    -webkit-filter: grayscale(0%) contrast(120%) drop-shadow(3px 3px 10px #C0C0C0);;
-    filter: grayscale(0%) contrast(120%) drop-shadow(3px 3px 10px #C0C0C0);
+    -webkit-filter: grayscale(0%) contrast(105%) drop-shadow(3px 3px 10px #C0C0C0);;
+    filter: grayscale(0%) contrast(105%) drop-shadow(3px 3px 10px #C0C0C0);
 }
 
 .shadowlarge {
