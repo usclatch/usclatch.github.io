@@ -11,13 +11,14 @@ $(window).load(function() {
         });
     });
 
-    function show(h0, h1, h2, h3, h4, h5) {
+    function show(h0, h1, h2, h3, h4, h5, h6) {
     document.getElementById(h0).style.display='block';
     document.getElementById(h1).style.display='none';
     document.getElementById(h2).style.display='none';
     document.getElementById(h3).style.display='none';
     document.getElementById(h4).style.display='none';
     document.getElementById(h5).style.display='none';
+    document.getElementById(h6).style.display='none';
     return false;
     }
 
@@ -54,6 +55,7 @@ $(window).load(function() {
             $('#people').hide();
             $('#recruitment').hide();
 			$('#thanks').hide();
+			$('#thanks2').hide();
 		} 
 		else if (dynamicContent == 'contact') {
 			$('#landing').hide();
@@ -62,6 +64,7 @@ $(window).load(function() {
             $('#people').hide();
             $('#recruitment').hide();
 			$('#thanks').hide();
+			$('#thanks2').hide();
 		} 
 		else if (dynamicContent == 'people' || dynamicContent == 'team') {
 			$('#landing').hide();
@@ -70,6 +73,7 @@ $(window).load(function() {
             $('#people').show();
             $('#recruitment').hide();
 			$('#thanks').hide();
+			$('#thanks2').hide();
 		} 
 		else if (dynamicContent == 'recruitment' || dynamicContent == 'apply') {
  			$('#landing').hide();
@@ -78,6 +82,7 @@ $(window).load(function() {
             $('#people').hide();
             $('#recruitment').show();
 			$('#thanks').hide();
+			$('#thanks2').hide();
 		} else if (dynamicContent == 'thanks') {
  			$('#landing').hide();
 			$('#about').hide();
@@ -85,6 +90,15 @@ $(window).load(function() {
             $('#people').hide();
             $('#recruitment').hide();
 			$('#thanks').show();
+			$('#thanks2').hide();
+		} else if (dynamicContent == 'thanks2') {
+ 			$('#landing').hide();
+			$('#about').hide();
+            $('#contact').hide();
+            $('#people').hide();
+            $('#recruitment').hide();
+			$('#thanks2').show();
+			$('#thanks').hide();
 		} 
 		else {
             $('#landing').show();
@@ -93,5 +107,6 @@ $(window).load(function() {
             $('#people').hide();
             $('#recruitment').hide();
 			$('#thanks').hide();
+			$('#thanks2').hide();
 		}
 	});
