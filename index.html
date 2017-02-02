@@ -61,27 +61,31 @@
             $('#contact').hide();
             $('#people').hide();
             $('#recruitment').hide();
-		} else if (dynamicContent == 'contact') {
+		} 
+		else if (dynamicContent == 'contact') {
 			$('#landing').hide();
 			$('#about').hide();
             $('#contact').show();
             $('#people').hide();
             $('#recruitment').hide();
-		} else if (dynamicContent == 'people') {
+		} 
+		else if (dynamicContent == 'people' || dynamicContent == 'team') {
 			$('#landing').hide();
 			$('#about').hide();
             $('#contact').hide();
             $('#people').show();
             $('#recruitment').hide();
-		} else if (dynamicContent == 'recruitment') {
+		} 
+		else if (dynamicContent == 'recruitment' || dynamicContent == 'apply') {
  			$('#landing').hide();
 			$('#about').hide();
             $('#contact').hide();
             $('#people').hide();
             $('#recruitment').show();
-		} else {
+		} 
+		else {
             $('#landing').show();
-			$('#about').hide();
+		$('#about').hide();
             $('#contact').hide();
             $('#people').hide();
             $('#recruitment').hide();
