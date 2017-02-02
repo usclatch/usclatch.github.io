@@ -11,12 +11,13 @@ $(window).load(function() {
         });
     });
 
-    function show(h0, h1, h2, h3, h4) {
+    function show(h0, h1, h2, h3, h4, h5) {
     document.getElementById(h0).style.display='block';
     document.getElementById(h1).style.display='none';
     document.getElementById(h2).style.display='none';
     document.getElementById(h3).style.display='none';
     document.getElementById(h4).style.display='none';
+    document.getElementById(h5).style.display='none';
     return false;
     }
 
@@ -52,6 +53,7 @@ $(window).load(function() {
             $('#contact').hide();
             $('#people').hide();
             $('#recruitment').hide();
+			$('#thanks').hide();
 		} 
 		else if (dynamicContent == 'contact') {
 			$('#landing').hide();
@@ -59,6 +61,7 @@ $(window).load(function() {
             $('#contact').show();
             $('#people').hide();
             $('#recruitment').hide();
+			$('#thanks').hide();
 		} 
 		else if (dynamicContent == 'people' || dynamicContent == 'team') {
 			$('#landing').hide();
@@ -66,6 +69,7 @@ $(window).load(function() {
             $('#contact').hide();
             $('#people').show();
             $('#recruitment').hide();
+			$('#thanks').hide();
 		} 
 		else if (dynamicContent == 'recruitment' || dynamicContent == 'apply') {
  			$('#landing').hide();
@@ -73,6 +77,14 @@ $(window).load(function() {
             $('#contact').hide();
             $('#people').hide();
             $('#recruitment').show();
+			$('#thanks').hide();
+		} else if (dynamicContent == 'thanks') {
+ 			$('#landing').hide();
+			$('#about').hide();
+            $('#contact').hide();
+            $('#people').hide();
+            $('#recruitment').hide();
+			$('#thanks').show();
 		} 
 		else {
             $('#landing').show();
@@ -80,5 +92,6 @@ $(window).load(function() {
             $('#contact').hide();
             $('#people').hide();
             $('#recruitment').hide();
+			$('#thanks').hide();
 		}
 	});
