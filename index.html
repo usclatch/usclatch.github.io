@@ -41,7 +41,54 @@
         p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
         })(window,document,'script','https://u.heatmap.it/log.js');
     </script>
-    <style>
+    <script type="text/javascript">
+	// Parse the URL parameter
+	function getParameterByName(name, url) {
+	    if (!url) url = window.location.href;
+	    name = name.replace(/[\[\]]/g, "\\$&");
+	    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+	        results = regex.exec(url);
+	    if (!results) return null;
+	    if (!results[2]) return '';
+	    return decodeURIComponent(results[2].replace(/\+/g, " "));
+	}
+	// Give the parameter a variable name
+	var dynamicContent = getParameterByName('dc');
+	$(document).ready(function() {
+		if (dynamicContent == 'about') {
+			$('#landing').hide();
+			$('#about').show();
+            $('#contact').hide();
+            $('#people').hide();
+            $('#recruitment').hide();
+		} else if (dynamicContent == 'contact') {
+			$('#landing').hide();
+			$('#about').hide();
+            $('#contact').show();
+            $('#people').hide();
+            $('#recruitment').hide();
+		} else if (dynamicContent == 'people') {
+			$('#landing').hide();
+			$('#about').hide();
+            $('#contact').hide();
+            $('#people').show();
+            $('#recruitment').hide();
+		} else if (dynamicContent == 'recruitment') {
+ 			$('#landing').hide();
+			$('#about').hide();
+            $('#contact').hide();
+            $('#people').hide();
+            $('#recruitment').show();
+        else {
+            $('#landing').show();
+			$('#about').hide();
+            $('#contact').hide();
+            $('#people').hide();
+            $('#recruitment').hide();
+		}
+	});
+</script>
+<!--<style>
      #about{
             display: none;
         }
@@ -54,7 +101,7 @@
         #recruitment{
             display: none;
         }
-        </style>
+</style>-->
 </head>
 <!--Loading Icon -->
 <div class="se-pre-con"><noscript><center><br><br><p style="font-size:20px;color:white;">Your browser does not support Javascript. :(<br>Please <a href="mailto:contact@usclatch.org?Subject=Error in Loading LATCH Website - Javascript Disabled" target="_top">email us</a> if you believe you received this in error.</p></center></noscript></div>
