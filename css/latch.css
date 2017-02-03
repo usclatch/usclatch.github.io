@@ -101,6 +101,11 @@ hr {
 -moz-transform:scale(0.95,0.95);
 -ms-transform:scale(0.95,0.95);
 -o-transform:scale(0.95,0.95);
+  		-webkit-transition:all 0.25s ease-in-out;
+		-moz-transition:all 0.25s ease-in-out;
+		-o-transition:all 0.25s ease-in-out;
+		-ms-transition:all 0.25s ease-in-out;
+		transition:all 0.25s ease-in-out;
 }
 #port:hover{
     -webkit-filter: grayscale(0%) contrast(105%) drop-shadow(3px 3px 10px #C0C0C0);;
@@ -110,6 +115,11 @@ hr {
 -moz-transform:scale(1.05,1.05);
 -ms-transform:scale(1.05,1.05);
 -o-transform:scale(1.05,1.05);
+  		-webkit-transition:all 0.25s ease-in-out;
+		-moz-transition:all 0.25s ease-in-out;
+		-o-transition:all 0.25s ease-in-out;
+		-ms-transition:all 0.25s ease-in-out;
+		transition:all 0.25s ease-in-out;
 }
 
 #porta {
@@ -120,6 +130,11 @@ hr {
 -moz-transform:scale(0.95,0.95);
 -ms-transform:scale(0.95,0.95);
 -o-transform:scale(0.95,0.95);
+  		-webkit-transition:all 0.25s ease-in-out;
+		-moz-transition:all 0.25s ease-in-out;
+		-o-transition:all 0.25s ease-in-out;
+		-ms-transition:all 0.25s ease-in-out;
+		transition:all 0.25s ease-in-out;
 }
 #porta:hover{
     -webkit-filter: grayscale(0%) contrast(105%) drop-shadow(3px 3px 10px #C0C0C0);;
@@ -129,6 +144,11 @@ transform: scale(1.05,1.05);
 -moz-transform:scale(1.05,1.05);
 -ms-transform:scale(1.05,1.05);
 -o-transform:scale(1.05,1.05);
+  		-webkit-transition:all 0.25s ease-in-out;
+		-moz-transition:all 0.25s ease-in-out;
+		-o-transition:all 0.25s ease-in-out;
+		-ms-transition:all 0.25s ease-in-out;
+		transition:all 0.25s ease-in-out;
 }
 
 .shadowlarge {
