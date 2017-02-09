@@ -91,7 +91,7 @@ $(window).load(function() {
             $('#recruitment').hide();
 			$('#thanks').show();
 			$('#thanks2').hide();
-		} else if (dynamicContent == 'thanks2') {
+		} else if (dynamicContent == 'thanks2' || dynamicContent == '404') {
  			$('#landing').hide();
 			$('#about').hide();
             $('#contact').hide();
