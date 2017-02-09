@@ -27,6 +27,7 @@
     <script src="js/custom.js"></script>
     <!-- GA -->
 	<style>
+		/*
 		.caption-style-4{
 		list-style-type: none;
 		margin: 0px;
@@ -103,15 +104,13 @@
 	}
 		
 		
-		
+		*/
 		
 	</style>
 	<style>
-		HTML, BODY {
+HTML, BODY {
   height: 100%;
-  }
-
-$colors: #C0C0C0, #C0C0C0, #C0C0C0, #C0C0C0, #C0C0C0;
+}
 
 BODY {
   background: #000;
@@ -121,40 +120,57 @@ BODY {
 
 .text--line {
   font-size: .5em;
-  }
+}
 
 svg {
   position: absolute;
   width: 100%;
   height: 100%;
-  }
+}
 
-$max: 5;
-$stroke-step: 7%; 
 .text-copy {
   fill: none;
   stroke: black;
-  stroke-dasharray: $stroke-step $stroke-step * ($max - 1);
+  stroke-dasharray: 7% 28%;
   stroke-width: 3px;
-  
-  animation: stroke-offset 2s linear;
-  
-  @for $item from 1 through $max {
-    $stroke-color: nth($colors, $item);
-    
-    &:nth-child(#{$item}) {
-      stroke: $stroke-color;
-      stroke-dashoffset: $stroke-step * $item;
-      }
-    }
+  -webkit-animation: stroke-offset 2s linear;
+          animation: stroke-offset 2s linear;
+}
+.text-copy:nth-child(1) {
+  stroke: #C0C0C0;
+  stroke-dashoffset: 7%;
+}
+.text-copy:nth-child(2) {
+  stroke: #C0C0C0;
+  stroke-dashoffset: 14%;
+}
+.text-copy:nth-child(3) {
+  stroke: #C0C0C0;
+  stroke-dashoffset: 21%;
+}
+.text-copy:nth-child(4) {
+  stroke: #C0C0C0;
+  stroke-dashoffset: 28%;
+}
+.text-copy:nth-child(5) {
+  stroke: #C0C0C0;
+  stroke-dashoffset: 35%;
+}
+
+@-webkit-keyframes stroke-offset {
+  10% {
+    stroke-dashoffset: 140%;
+    stroke-dasharray: 0 175%;
   }
+}
 
 @keyframes stroke-offset {
   10% {
-      stroke-dashoffset: $stroke-step * $max*4;
-    stroke-dasharray: 0 $stroke-step * $max*5;
+    stroke-dashoffset: 140%;
+    stroke-dasharray: 0 175%;
   }
 }
+
 	</style>
 </head>
 <!--Loading Icon -->
