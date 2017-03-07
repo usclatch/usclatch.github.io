@@ -186,8 +186,8 @@ hr {
 }
 
 .seeit {
-  -webkit-filter: grayscale(100%) contrast(100%) drop-shadow(0px 0px 7px #FFF);
-  filter: grayscale(100%) contrast(100%) drop-shadow(0px 0px 7px #FFF);
+  -webkit-filter: grayscale(100%) contrast(100%) drop-shadow(0px 0px 1px #FFF);
+  filter: grayscale(100%) contrast(100%) drop-shadow(0px 0px 1px #FFF);
 }
 
 .maximize {
