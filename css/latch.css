@@ -188,6 +188,10 @@ hr {
   filter: grayscale(100%) contrast(100%) drop-shadow(0px 0px 7px #FFF);
 }
 
+.maximize {
+  width: 100%;
+}
+
 .shadowlarge {
   -webkit-text-stroke: 1px black;
   text-shadow:
