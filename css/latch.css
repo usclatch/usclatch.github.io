@@ -97,6 +97,7 @@ hr {
 }
 
 #port {
+  border-radius: 7px;
   -webkit-filter: grayscale(0%) brightness(120%) contrast(105%);
   filter: grayscale(0%) brightness(120%) contrast(105%);
   transform: scale(0.95,0.95);
@@ -126,6 +127,7 @@ hr {
 }
 
 #portnoc {
+  border-radius: 7px;
   -webkit-filter: grayscale(5%) contrast(85%);
   filter: grayscale(5%) contrast(85%);
   transform: scale(0.95,0.95);
@@ -277,7 +279,7 @@ hr {
 
 .box {
   margin-bottom: 20px;
-  padding: 30px 15px;
+  padding: 15px 15px;
   background: #fff;
   background: rgba(255,255,255,0.94);
 }
@@ -293,7 +295,7 @@ hr {
 .img-border {
   float: none;
   margin: 0 auto 0;
-  border: #999999 solid 1px;
+  border: #000 solid 1px;
 }
 
 .img-left {
@@ -383,7 +385,6 @@ footer {
     font-size: 1em;
     color: #000;
   }
-
 }
 
 @media screen and (min-width:1200px) {
