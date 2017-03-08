@@ -1,8 +1,9 @@
 $(window).load(function() {
    setTimeout(function(){
         // Animate loader off screen
+
+        $(".se-pre-con").fadeOut("fast");
         $("body").removeClass("preload");
-        $(".se-pre-con").fadeOut("slow");
       }, 1);
     });
      $(function(){
