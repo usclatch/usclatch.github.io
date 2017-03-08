@@ -1,7 +1,9 @@
 $(window).load(function() {
+   setTimeout(function(){
         // Animate loader off screen
         $("body").removeClass("preload");
         $(".se-pre-con").fadeOut("fast");
+      }, 800);
     });
      $(function(){
         $(".element").typed({
@@ -28,12 +30,12 @@ $(window).load(function() {
         })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
         ga('create', 'UA-90187445-1', 'auto');
         ga('send', 'pageview');
-   
+
         (function(h,e,a,t,m,p) {
         m=e.createElement(a);m.async=!0;m.src=t;
         p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
         })(window,document,'script','https://u.heatmap.it/log.js');
-    
+
 	// Parse the URL parameter
 	function getParameterByName(name, url) {
 	    if (!url) url = window.location.href;
@@ -56,7 +58,7 @@ $(window).load(function() {
             $('#recruitment').hide();
 			$('#thanks').hide();
 			$('#thanks2').hide();
-		} 
+		}
 		else if (dynamicContent == 'contact') {
 			$('#landing').hide();
 			$('#about').hide();
@@ -65,7 +67,7 @@ $(window).load(function() {
             $('#recruitment').hide();
 			$('#thanks').hide();
 			$('#thanks2').hide();
-		} 
+		}
 		else if (dynamicContent == 'people' || dynamicContent == 'team') {
 			$('#landing').hide();
 			$('#about').hide();
@@ -74,7 +76,7 @@ $(window).load(function() {
             $('#recruitment').hide();
 			$('#thanks').hide();
 			$('#thanks2').hide();
-		} 
+		}
 		else if (dynamicContent == 'recruitment' || dynamicContent == 'apply') {
  			$('#landing').hide();
 			$('#about').hide();
@@ -99,7 +101,7 @@ $(window).load(function() {
             $('#recruitment').hide();
 			$('#thanks2').show();
 			$('#thanks').hide();
-		} 
+		}
 		else {
             $('#landing').show();
 		$('#about').hide();
