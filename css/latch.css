@@ -62,7 +62,8 @@
 
 
 body {
-  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: 'Source Serif Pro', serif;
+  /*font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;*/
   background: url('https://github.com/usclatch/usclatch.github.io/blob/master/img/sunlight-la.jpg?raw=true') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -78,7 +79,8 @@ h4,
 h5,
 h6 {
   text-transform: uppercase;
-  font-family: "Century Gothic","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: 'Source Serif Pro', serif;
+  /*font-family: "Century Gothic","Helvetica Neue",Helvetica,Arial,sans-serif;*/
   font-weight: 700;
   letter-spacing: 1px;
   color: #000;
@@ -317,7 +319,8 @@ footer {
     padding: 10px;
     text-align: center;
     /*text-shadow: 1px 1px 2px rgba(0,0,0,0.5);*/
-    font-family: "Helvetica Neue","Helvetica Neue",Helvetica,Arial,sans-serif;
+    /*font-family: "Helvetica Neue","Helvetica Neue",Helvetica,Arial,sans-serif;*/
+    font-family: 'Source Serif Pro', serif;
     font-size: 5em;
     font-weight: 700;
     line-height: normal;
